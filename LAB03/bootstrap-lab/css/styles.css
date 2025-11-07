@@ -1,0 +1,23 @@
+/* Using HSL color value as recommended */
+:root {
+    --bs-primary: hsl(210, 80%, 50%);
+    --bs-primary-rgb: 51, 122, 255;
+}
+
+/* This adds vertical space between sections for easier navigation */
+section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+/* This is for the carousel images to have a consistent height */
+.carousel-item {
+    height: 600px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    /* A simple filter to make text more readable */
+    filter: brightness(0.8);
+}

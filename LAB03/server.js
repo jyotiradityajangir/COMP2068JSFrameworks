@@ -27,7 +27,7 @@ const calculate = (req, res) => {
     result = x - y;
     operator = "-";
   } else if (method === "multiply") {
-    result = x * y;
+    result = x *  y;
     operator = "*";
   } else if (method === "divide") {
     result = x / y;
